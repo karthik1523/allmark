@@ -1,0 +1,47 @@
+.login-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to right, #f5f2ea, #f5f2ea, #f5f2ea, #f5f2ea, #f5f2ea), url(../../../assets/images/logo2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 10px solid white;
+  border-radius: 15px;
+  background-blend-mode: multiply;
+}
+
+.login-form label, .login-form p {
+  color: #676767;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.login-form h3 {
+  color: #1c1c1c;
+}
+.login-form .submitButton {
+  background-color: #676767;
+  color: white;
+  font-family: 500;
+}
+
+.card {
+  border: none;
+  box-shadow: 3px 3px 5px #676767;
+}
+
+@media only screen and (max-width: 768px) {
+  .login-content {
+    background-color: white;
+    background-image: none;
+  }
+  .card {
+    box-shadow: none;
+  }
+  .login-form {
+    padding: 10px;
+  }
+}/*# sourceMappingURL=template3.component.css.map */

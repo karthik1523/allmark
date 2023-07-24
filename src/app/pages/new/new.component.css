@@ -1,0 +1,72 @@
+.login-content {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nextContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.row-content {
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-form .submitButton {
+  background-color: #ff725e;
+  border-radius: 10px;
+  color: white;
+  font-weight: 400;
+}
+.login-form p {
+  color: #f79e8c;
+}
+.login-form label {
+  color: #969696;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.login-form .input {
+  border: 1px solid #ffb1a4;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.sideImage {
+  width: 500px;
+  height: 100%;
+}
+
+.side-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffb1a4;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+@media (min-width: 992px) and (max-width: 1530px) {
+  .login-form p {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .side-content {
+    display: none;
+  }
+  .login-form p {
+    font-size: 10px;
+  }
+}/*# sourceMappingURL=new.component.css.map */

@@ -1,0 +1,201 @@
+                    /* open page  */
+.logopage{
+    background-image: linear-gradient(to right top, #838589, #5c75ab, #3061c9, #0047df, #2412eb);
+    background-repeat: no-repeat;
+    height: 768px;
+
+}
+
+.forms{
+    height: 768px;
+    top: 0px;
+    right: 100px;
+    width: 420px;
+}
+
+.navbar{
+    border-bottom: 1px solid black;
+}
+.profile{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+                     /* logo section */
+.logo{
+    width: 70px;
+    height: 70px;
+}
+.card{
+    border: 1px solid #00000029;
+    border-radius: 15px;
+    box-shadow: 0px 3px  #00000029;
+}
+.card1{
+    height: 150px;
+}
+.card2{
+    height: 100px;
+}
+.lastcontent{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #00000029;
+    box-shadow: 0px 3px  #00000029;
+    border-radius: 15px;
+}
+
+.mobiletable{
+    display: none;
+}
+.input1{
+    border: 1px solid #001C8E;
+}
+
+.button1{
+    background-color:#FE9A2D;
+    color: white;
+    border-radius: 10px;
+}
+.searchicon{
+    top: 10px;
+    right: 10px;
+}
+.button2{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.button3{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+thead{
+    background-color: #001C8E;
+    color: white;
+}
+.content-2{
+    border-radius: 15px;
+}
+.downicon{
+    top: 40px;
+    right: 15px;
+}
+.textbox input{
+    height: 80px;
+}
+.calendericon{
+    top: 35px;
+    right: 10px;
+}
+.tabledownicon{
+    top: 38px;
+    right: 5px;
+}
+.showtable{
+    font-size: 12px;
+    font-weight: 500;
+}
+                /* modal */
+
+.modaldialog{
+   max-width: 1500px;
+   
+}
+
+.modal-content{
+    border-radius: 15px;
+}
+.modal{
+    border-radius: 30px;
+}
+$--bs-breadcrumb-divider:quote($string: ">");
+
+.listgroup{
+    width: 200px;
+}
+.modaltable{
+    display: none;
+}
+.inputicon{
+    top: 10px;
+    right: 5px;
+}
+       
+
+                           /* put away section */
+.tableinput{
+    width: 70px;
+    border: none;
+
+}
+.producttable{
+    top:-10px;
+}
+
+.modaldialog2{
+    max-width: 1500px;
+    
+ }
+                      /* putaway Modal Input */
+.putawaymodalinput{
+    width: 300px;
+
+}
+.modalinputicon{
+    top:35px;
+    left:280px;
+}
+.modalinputproducticon{
+    top:10px;
+    left:280px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-6"] {
+      width: 100%;
+    }
+    [class*="col-3"] {
+        width: 50%;
+      }
+      
+
+    .col-md-2{
+        display: none;
+    }
+    .input1{
+        margin-bottom: 10px;
+    }
+    .mobiletable{
+        display: contents;
+    
+    }
+    .tablecontent1{
+        display: none;
+    }
+
+    
+    .showtable{
+        display: none;
+    }
+    .modaltable{
+        display: contents;
+    }
+
+    .logopage{
+        visibility: hidden;
+    }
+    .forms{
+        visibility: visible;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        border: 1px solid blue;
+        margin-top: 10px;
+        width: 200px;
+    }
+
+    
+  }

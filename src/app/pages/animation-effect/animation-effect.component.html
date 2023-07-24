@@ -1,0 +1,37 @@
+<div class="container-fluid mt-5">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="d-flex justify-content-between align-items-center border-bottom" *ngFor=" let tab of selected">
+               <div><img src="../../../assets/icons/delete.svg" alt="">
+                {{tab.name}}
+               </div>
+               <div>
+                {{tab.amount}}
+               </div>
+               <div>
+                <input type="number" class="form-control input" id="count"  #form>
+               </div>
+                {{tab.amount}}
+            </div>
+        </div>
+
+        <div class="col-md-8">
+            <div class="row" >
+                <div class="col-2"*ngFor="let tab of dataTable" >
+                    <div class="card p-1  " (click)=" onclick(tab)">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <img src="../../../assets/icons/dot.svg" alt="">
+                            <h6 class="text-secondary m-0 pe-2">{{tab.amount}}</h6>
+                        </div>
+                        <div class="text-center">
+                            <img [src]="tab.image" alt="">
+                        </div>
+                        <div class="p-2 text-center">
+                           {{tab.name}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,63 @@
+.login-content {
+  width: 100vw;
+  height: 100vh;
+}
+
+.side-content {
+  background-image: url(../../../assets/images/template7.jpg);
+  background-size: cover;
+  background-position: 100% left;
+  background-repeat: no-repeat;
+  height: 100vh;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.side-content h1 {
+  color: white;
+  font: italic;
+}
+
+.form-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-form .submitButton {
+  background-color: #111727;
+  color: white;
+  font-weight: 400;
+}
+.login-form .input {
+  border: none;
+  border-bottom: 1px solid #e7e9e9;
+}
+.login-form label, .login-form a {
+  color: #50545b;
+  font-weight: 400;
+  font-size: 18px;
+}
+.login-form p {
+  color: #212731;
+  font-size: 13px;
+}
+.login-form h2 {
+  color: #212731;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .side-content {
+    display: none;
+  }
+  .form-content {
+    padding: 16px;
+  }
+}/*# sourceMappingURL=template4.component.css.map */

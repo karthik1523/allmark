@@ -1,0 +1,115 @@
+.navbar {
+  position: relative;
+}
+
+.searchbox {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input-group {
+  width: 400px;
+}
+.input-group .input1 {
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  border: 1px solid #cccccc;
+}
+.input-group .input2 {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: 1px solid #cccccc;
+}
+.input-group .form-control:focus {
+  box-shadow: none;
+}
+
+.last-content {
+  position: absolute;
+  right: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.last-content .nav-item {
+  padding-right: 30px;
+}
+.last-content .image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.navDropdown {
+  position: relative;
+}
+
+.navDropdownMenu {
+  position: absolute;
+  left: -150px;
+}
+
+.aside {
+  margin-top: 20px;
+  padding-top: 50px;
+  width: 250px;
+  transform: rotateY(360deg);
+  overflow: hidden;
+  z-index: -1;
+  height: 90vh;
+  background-color: white;
+  box-shadow: 3px 3px 5px #f2f2f2;
+  transition: all -1s transform ease-in;
+}
+
+.aside div {
+  transition: width 0.3s transform ease-in;
+}
+
+.btn-alt {
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+  margin-top: 20px;
+}
+.btn-alt .asideButton {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 10px;
+}
+.btn-alt .asideText {
+  font-size: 18px;
+  font-weight: 400;
+  padding-left: 10px;
+}
+
+.active {
+  background-color: #f2f2f2;
+}
+
+@media only screen and (max-width: 768px) {
+  .input-group {
+    display: none;
+  }
+  .last-content .nav-item {
+    padding-right: 15px;
+  }
+  .searchbox .nav-item {
+    padding-left: 30px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .input-group {
+    width: 200px;
+  }
+}/*# sourceMappingURL=navbar2.component.css.map */

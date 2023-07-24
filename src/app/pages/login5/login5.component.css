@@ -1,0 +1,85 @@
+.login-content {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f7fafb;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1000;
+}
+
+.small-content {
+  background-color: #f7fafb;
+}
+
+.side-content h1 {
+  color: hsl(214deg, 14%, 32%);
+}
+.side-content span {
+  color: hsl(172deg, 54%, 55%);
+}
+
+.logo {
+  width: 200px;
+  height: 100px;
+}
+
+.loginForm {
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 10px 10px 3px #D2D9E0;
+}
+.loginForm label {
+  color: #fc6776;
+  font-size: 18px;
+  font-weight: 400;
+}
+.loginForm h1 {
+  color: #fc6776;
+}
+.loginForm input {
+  border: none;
+  border-bottom: 1px solid #f1f3f5;
+}
+
+.btn-alt {
+  background-color: hsl(214deg, 14%, 32%);
+  color: white;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+.image {
+  position: absolute;
+  top: 0;
+  right: -150px;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+  .side-content {
+    display: none;
+  }
+  .login-content {
+    background-color: #f7fafb;
+  }
+  .loginForm {
+    display: block;
+    box-shadow: none;
+    background-color: #f7fafb;
+  }
+  .loginForm input {
+    border: 1px solid hsl(214deg, 14%, 32%);
+    background-color: #f7fafb;
+  }
+}
+@media (min-width: 992px) and (max-width: 1230px) {
+  .side-content h1 {
+    font-size: 28px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .side-content h1 {
+    font-size: 22px;
+  }
+}/*# sourceMappingURL=login5.component.css.map */

@@ -1,0 +1,15 @@
+.input {
+  width: 60px;
+}
+
+.card {
+  opacity: 0;
+  transform: translate3d(-50px, 0, 0); /* ADDED - start x position as -50px */
+  cursor: pointer;
+  transition: 0.25s all ease-in-out;
+}
+
+.card:hover {
+  opacity: 1;
+  transform: translate3d(25, 10, 15); /* ADDED - move x to 0 on hover */
+}/*# sourceMappingURL=animation-effect.component.css.map */

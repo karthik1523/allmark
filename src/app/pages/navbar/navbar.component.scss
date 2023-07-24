@@ -1,0 +1,42 @@
+.logo{
+    width: 150px;
+    height: 40px;
+}
+
+.navbar{
+    color: black;
+}
+
+.image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.contentCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #003366;
+    font-weight: 600;
+}
+@media only screen and (max-width: 768px){
+    .contentCenter{
+        text-align: left;
+        display: block;
+    }
+    .nav-item{
+        padding: 12px;
+        border-bottom: 1px solid gray;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px){
+    .contentCenter{
+        display: block;
+        text-align: left;
+    }
+    .nav-item{
+        padding: 12px;
+        border-bottom: 1px solid gray;
+    }
+}
